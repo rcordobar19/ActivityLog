@@ -6,8 +6,9 @@
 		user activity on a website or web application.
 
 		created by Cody Jassman
+		updated by Rafael Cordoba for Uproar.gg
 		version 0.6.8
-		last updated on April 17, 2017
+		last updated on May 12, 2017
 ----------------------------------------------------------------------------------------------------------*/
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
@@ -22,27 +23,17 @@ class Activity extends Eloquent {
 	 *
 	 * @var string
 	 */
-	protected $table = 'activity_log';
+	protected $table = 'activity_logs';
 
 	/**
-	 * The fillable fields for the model.
+	 * Uproar model fillable
 	 *
 	 * @var    array
 	 */
 	protected $fillable = [
-		'user_id',
-		'content_type',
-		'content_id',
-		'action',
-		'description',
-		'details',
-		'data',
-		'language_key',
-		'public',
-		'developer',
-		'ip_address',
-		'user_agent',
-	];
+        'user_id',
+        'activity',
+    ];
 
 	/**
 	 * The content item for the log entry.
