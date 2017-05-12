@@ -17,16 +17,16 @@ ActivityLog
 To install ActivityLog, make sure "regulus/activity-log" has been added to Laravel 5's `composer.json` file.
 
 	"require": {
-		"regulus/activity-log": "0.6.*"
+		"rcordobar19/activity-log": "dev-master"
 	},
 
 Then run `php composer.phar update` from the command line. Composer will install the ActivityLog package. Now, all you have to do is register the service provider and set up ActivityLog's alias. In `app/config/app.php`, add this to the `providers` array:
 
-	Regulus\ActivityLog\ActivityLogServiceProvider::class,
+	Rcordoba\ActivityLog\ActivityLogServiceProvider::class,
 
 And add this to the `aliases` array:
 
-	'Activity' => Regulus\ActivityLog\Models\Activity::class,
+	'Activity' => Rcordoba\ActivityLog\Models\Activity::class,
 
 **Publishing migrations and configuration:**
 
