@@ -1,5 +1,5 @@
 {
-	"name": "regulus/activity-log",
+	"name": "rcordobar19/activity-log",
 	"description": "A clean and simple Laravel 5 activity logger for monitoring user activity on a website or web application.",
 	"license": "MIT",
 	"authors": [
@@ -16,8 +16,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Regulus\\ActivityLog\\": "src/",
-			"Regulus\\TetraText\\": "src/"
+			"Rcordoba\\ActivityLog\\": "src/",
+			"Rcordoba\\TetraText\\": "src/"
 		}
 	}
 }

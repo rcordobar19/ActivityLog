@@ -1,4 +1,4 @@
-<?php namespace Regulus\ActivityLog;
+<?php namespace Rcordoba\ActivityLog;
 
 use Illuminate\Support\ServiceProvider;
 

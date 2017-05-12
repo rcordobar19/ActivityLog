@@ -1,4 +1,4 @@
-<?php namespace Regulus\ActivityLog\Models;
+<?php namespace Rcordoba\ActivityLog\Models;
 
 /*----------------------------------------------------------------------------------------------------------
 	Activity Log
